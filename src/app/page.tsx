@@ -1,10 +1,10 @@
-"use client"
+"use client";
 import { UserCircleIcon } from "@heroicons/react/24/solid";
 import { motion } from "framer-motion";
 
 export default function Home() {
   return (
-    <div className="font-[Geist] w-full h-full flex flex-col justify-center items-center">
+    <div className="w-full h-full flex flex-col justify-center items-center">
       <motion.div
         initial={{ opacity: 0, y: -40, filter: "blur(10px)" }}
         animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
@@ -20,8 +20,12 @@ export default function Home() {
             <span className="bg-gradient-to-r flex justify-center items-center from-blue-500 to-teal-500 text-transparent bg-clip-text">
               Front end web developer
             </span>
-            <span className="self-start text-base sm:text-lg md:text-xl">from bangalore</span>
-            <span className="self-start text-base sm:text-lg md:text-xl">india</span>
+            <span className="self-start text-base sm:text-lg md:text-xl">
+              from bangalore
+            </span>
+            <span className="self-start text-base sm:text-lg md:text-xl">
+              india
+            </span>
           </h2>
           <p className="text-gray-400 text-base sm:text-lg md:text-xl mt-4 text-center">
             I am a front-end web developer with a passion for creating beautiful

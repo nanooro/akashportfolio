@@ -1,16 +1,5 @@
 import type { Metadata } from "next";
-// import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 export const metadata: Metadata = {
   title: "Akash",
@@ -25,8 +14,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        {/* Geist font CDN */}
-        <link rel="stylesheet" href="https://geists.vercel.app/font.css" />
+        {/* If you want to use the Geist font via CDN, you can add this line: */}
+        {/* <link rel="stylesheet" href="https://geists.vercel.app/font.css" /> */}
       </head>
       <body className="w-full h-full flex flex-col">
         {children}
