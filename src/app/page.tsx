@@ -14,7 +14,7 @@ export default function Home() {
         <UserCircleIcon className="w-24 h-24 text-gray-400 rounded-full mt-16 mb-4" />
         <div className="flex flex-col justify-center items-center w-full h-full max-w-4xl p-4">
           <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold self-center mt-0 text-gray-400 flex">
-            Hi, I'm Akash <span className="">👋</span>
+            {"Hi, I'm Akash"} <span className="">👋</span>
           </h1>
           <h2 className="flex flex-col text-2xl sm:text-3xl md:text-4xl font-semibold self-center mt-4 m-2">
             <span className="bg-gradient-to-r flex justify-center items-center from-blue-500 to-teal-500 text-transparent bg-clip-text">
